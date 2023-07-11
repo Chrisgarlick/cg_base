@@ -2,10 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-section {
-    div {
-        p {
-            font-size: 24px;
-        }
-    }
-}
+// essentials
+@import 'essentials/fonts';
+@import 'essentials/global_variables.scss';
+@import 'essentials/type';
+@import 'essentials/base';
+
+
+// content
+@import 'content/wordpress';
+@import 'content/button';
+@import 'content/animations';
+
+
+// modules
+@import 'modules/one_column.scss';
+@import 'modules/fiftyfifty';

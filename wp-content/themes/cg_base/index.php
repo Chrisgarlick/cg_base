@@ -1,17 +1,27 @@
-<?php 
+<?php
 
-/* Template Name: Flexible */
-// use Timber\Timber; 
-/*
+/* Template Name: Flexible */ 
+
 $context = Timber::context();
-$templates = array('index.twig'); // Add other templates if needed
+$context['posts'] = Timber::get_posts();
 
-Timber::render($templates, $context); */
+require_once('templates/components.php');
 
-// $context = array();
-// $context['headline'] = 'Welcome to my new Timber Blog!';
+Timber::render( array('index.twig'), $context);
 
-// Timber::render('index.twig');
-$context = array();
-$context['message'] = 'I am a message from the index.php file';
-Timber::render('templates/index.twig', $context);
+// $context = Timber::get_context();
+// $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1; 
+// $context['posts'] = new Timber\PostQuery();
+
+// // if($paged != '1'){
+// //     $context['paged'] = ' - '. __('Page ', 'cg_base') . $paged;
+// // }
+
+
+
+// Timber::render( array( 'index.twig') , $context );
+
+// $twig = new Twig_Environment($loader, [
+//     'debug' => true,
+// ]);
+

@@ -1,0 +1,9 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+<h1>{{ post.title }}</h1>
+<p>{{ post.content }}</p>
+<img class="w-[200px]" src="{{ post.thumbnail.src|towebp }}"></img>
+
+{% endblock %}

@@ -1,0 +1,116 @@
+{
+    "key": "group_64ad26aac990d",
+    "title": "Flexible - Components",
+    "fields": [
+        {
+            "key": "field_64ad26aa33d63",
+            "label": "Flexible Components",
+            "name": "flexible_components",
+            "aria-label": "",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_64ad26c96bc7c": {
+                    "key": "layout_64ad26c96bc7c",
+                    "name": "one_column_component",
+                    "label": "One Column Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64ad271c39eb9",
+                            "label": "One Column Component Clone",
+                            "name": "one_column_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64ad2625b6ed2"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64ad5cb33aae5": {
+                    "key": "layout_64ad5cb33aae5",
+                    "name": "fiftyfifty_block_component",
+                    "label": "50\/50 Block Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64ad5cc13aae6",
+                            "label": "50\/50 Block Component Clone",
+                            "name": "fiftyfifty_block_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64ad5a750f842"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "min": "",
+            "max": "",
+            "button_label": "Add Row"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1689083121
+}

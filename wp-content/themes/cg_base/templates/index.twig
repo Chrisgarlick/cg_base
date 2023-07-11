@@ -2,17 +2,5 @@
 
 
 {% block content %}
-<div class="text-center mx-auto">
-    <p class="bg-black text-white">HELLO WORLD FROM INDEX . TWIG</p>
-    <h1 class="title text-center my-4">{{ message }}</h1>
-</div>
-
-{# 
-Timber Setup
-https://www.youtube.com/watch?v=UG4O5VlYGaU&list=PL8qi2ncTgQniIw2hAMQ-5KL0Yow9onjFO&index=2 #}
-
-{#
-Tailwind Setup
-https://www.youtube.com/watch?v=PltjA1UTTCw #}
-
+    {% include 'partials/flexible-content.twig' %}
 {% endblock %}

@@ -1,0 +1,36 @@
+.m__fiftyfifty {
+
+    &_block {
+
+        &--text {
+
+            &-header {
+
+
+
+            }
+
+        }
+
+        &--image {
+
+            img {
+
+                @apply w-4/5;
+                @apply h-full;
+
+            }
+
+            p.caption {
+
+                @apply text-center;
+                @apply text-sm;
+                @apply mt-4;
+
+            }
+
+        }
+
+    }
+
+}
