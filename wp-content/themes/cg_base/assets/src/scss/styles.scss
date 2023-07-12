@@ -4,7 +4,7 @@
 
 // essentials
 @import 'essentials/fonts';
-@import 'essentials/global_variables.scss';
+@import 'essentials/global_variables';
 @import 'essentials/type';
 @import 'essentials/base';
 
@@ -15,6 +15,12 @@
 @import 'content/animations';
 
 
+// Layout
+@import 'layout/navigation';
+
 // modules
-@import 'modules/one_column.scss';
+@import 'modules/one_column';
 @import 'modules/fiftyfifty';
+@import 'modules/icon_blocks';
+@import 'modules/stats_blocks';
+@import 'modules/full_width_image';

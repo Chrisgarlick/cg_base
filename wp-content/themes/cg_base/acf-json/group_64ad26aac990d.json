@@ -80,6 +80,134 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_64ae65c33b401": {
+                    "key": "layout_64ae65c33b401",
+                    "name": "fiftyfifty_text_component",
+                    "label": "50\/50 Text Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64ae66053b402",
+                            "label": "50\/50 Text Component Clone",
+                            "name": "fiftyfifty_text_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64ae615da5ac8"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64aeab43c4c81": {
+                    "key": "layout_64aeab43c4c81",
+                    "name": "image_blocks_component",
+                    "label": "Image Blocks Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64aeab4ac4c82",
+                            "label": "Image Blocks Component Clone",
+                            "name": "image_blocks_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64aea76ea2e60"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64aeb6bc93f35": {
+                    "key": "layout_64aeb6bc93f35",
+                    "name": "stats_block_component",
+                    "label": "Stats Block Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64aeb6c593f36",
+                            "label": "Stats Block Component Clone",
+                            "name": "stats_block_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64aeb5d354749"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64aec88ae0d3d": {
+                    "key": "layout_64aec88ae0d3d",
+                    "name": "full_width_image_component",
+                    "label": "Full Width Image Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64aec891e0d3e",
+                            "label": "Full Width Image Component Clone",
+                            "name": "full_width_image_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64aec7bad4b98"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -112,5 +240,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1689083121
+    "modified": 1689176365
 }

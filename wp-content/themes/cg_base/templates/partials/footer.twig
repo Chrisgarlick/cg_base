@@ -1,0 +1,12 @@
+{% if menu.footer_nav %}
+    <div class="g__footer__block hidden md:block">
+        <h4 class="mb-4">Quick Links</h4>
+        <div class="g__footer__block--content">
+            <ul class="list-none">
+                {% for fitem in menu.footer_nav %}
+                    <li><a href="{{ fitem.url }}" class="{{ item.object_id == pageid ? 'current' }}" target="{{ fitem.target ? fitem.target : '_self' }}" {{ fitem.target == '_blank' ? 'rel="noopener"' }}>{{ fitem.name }}</a></li>
+                {% endfor %}
+            </ul> 
+        </div> 
+    </div>
+{% endif %}

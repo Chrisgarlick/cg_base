@@ -1,0 +1,20 @@
+.m__nav{
+    &__wrap{
+
+    }
+    &__item{
+        a{
+            @apply text-black;
+        }
+        &.current {
+            a {
+                @apply underline;
+                @apply decoration-red;
+                @apply decoration-2;
+            }
+        }
+    }
+    &__item + &__item{
+        @apply ml-10;
+    }
+}

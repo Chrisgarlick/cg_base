@@ -2,6 +2,7 @@
 // functions.php
 
 require_once('lib/timber.php');
+require_once('lib/tools.php');
 
 function custom_acf_json_save_point( $path ) {
     // Set the path to the acf-json folder in your theme
@@ -32,26 +33,65 @@ function enqueue_theme_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_theme_scripts' );
 
-add_theme_support('post-thumbnails');
+// add_theme_support('post-thumbnails');
 
-function theme_name_register_menus() {
-    register_nav_menus(
-        array(
-            'header-menu' => 'Header Menu',
-            'footer-menu' => 'Footer Menu'
-        )
-    );
-}
-add_action('init', 'theme_name_register_menus');
+// function cg_base_register_menus() {
+//     register_nav_menus(
+//         array(
+//             'top_nav' => 'Top Menu',
+//             'main_nav' => 'Main Menu',
+//             'footer_nav' => 'Footer Menu',
+//             'legal_nav' => 'Legal Menu'
+//         )
+//     );
+// }
+// add_action('init', 'cg_base_register_menus');
 
-if(function_exists('acf_add_options_page')) {
-    acf_add_options_page(
-        [
-            'page_title' => 'Site Options',
-            'menu_title' => 'Site Options',
-            'menu_slug' => 'site-options',
-        ]
-    );
-}
+// add_theme_support('html5', array (
+//     'comment-form',
+//     'comment-list',
+//     'gallery',
+//     'caption'
+// ));
 
+
+
+
+
+// Potential trying to fix navs 
+// https://www.youtube.com/watch?v=ptKG83zlWjI
+// class StarterSite extends TimberSite {
+//     public function __construct() {
+//         add_action('after_setup_theme', array( $this, 'theme_supports'));
+//         add_action('after_setup_theme', array( $this, 'register_menus'));
+//         add_filter('timber/context', array( $this, 'add_to_context'));
+//         add_filter('timber/twig', array( $this, 'add_to_twig'));
+//         parent::__construct();
+//     }
+
+//     public function register_menus() {
+//         register_nav_menus(
+//             array(
+//                 'top_nav' => 'Top Menu',
+//                 'main_nav' => 'Main Menu',
+//                 'footer_nav' => 'Footer Menu',
+//                 'legal_nav' => 'Legal Menu'
+//             )
+//         );
+//     }
+
+//     public function add_to_context() {
+//         $context['menu_header'] = new Timber\Menu('main_nav');
+//         $context['menu_footer'] = new Timber\Menu('footer_nav');
+//         $context['site'] = $this;
+//         return $context;
+//     }
+
+//     public function theme_supports() {
+//         add_theme_support('post-thumbnails');
+//         add_theme_support('menus');
+//     }
+// }
+
+// new StarterSite();
 

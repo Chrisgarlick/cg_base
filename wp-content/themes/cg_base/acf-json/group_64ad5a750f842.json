@@ -456,9 +456,9 @@
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "widget",
                 "operator": "==",
-                "value": "post"
+                "value": "tag_cloud"
             }
         ]
     ],
@@ -471,5 +471,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1689085133
+    "modified": 1689167722
 }

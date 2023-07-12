@@ -1,6 +1,6 @@
-{# {% if nav %}
+{% if nav %}
 	<nav id="nav-main" class="m__nav w-full">
-		<ul class="m__nav__wrap flex justify-end">
+		<ul class="m__nav__wrap flex justify-evenly">
 			{% for item in nav %} 
 				{% if item.menu_item_parent == 0 %}
 					<li class="m__nav__item {{ item.classes|join(' ') }} {{ item.url == current_url ? 'current' }} ">
@@ -61,4 +61,4 @@
 
 	
 	</nav>
-{% endif %} #}
+{% endif %}

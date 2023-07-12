@@ -33,4 +33,24 @@
 
     }
 
+    &__text {
+
+        &--left, &--right {
+
+            &.text-beg {
+                @apply text-start;
+            }
+
+            &.text-mid {
+                @apply text-center;
+            }
+
+            &.text-far {
+                @apply text-end;
+            }
+
+        }
+
+    }
+
 }

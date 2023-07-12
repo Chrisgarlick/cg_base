@@ -2,7 +2,7 @@
 
 use Timber\Timber;
 
-Timber::$dirname = array('templates'); /*
+Timber::$dirname = array('templates'); 
 
 class TemplateBuild extends TimberSite {
 
@@ -15,10 +15,8 @@ class TemplateBuild extends TimberSite {
 		add_image_size( 'large', 720, 720, true );
 		register_nav_menus(
 			[
-				'top_nav' => 'Top Menu',
 				'main_nav' => 'Main Menu',
 				'footer_nav' => 'Footer Menu',
-				'legal_nav' => 'Legal Menu'
 			]
 		);
 
@@ -32,7 +30,7 @@ class TemplateBuild extends TimberSite {
 
 		$pageid = get_the_id();
 
-		$context['current_user'] = new Timber\User();
+		$context['current_user'] = get_current_user_id();
 		$context['pageid'] = $pageid;
 		$context['current_url'] = currentUrl();
 		$context['site'] = $this;
@@ -58,7 +56,7 @@ class TemplateBuild extends TimberSite {
 		foreach($nav_locations as $navkey => $nav) {
 			$navs[$navkey] = get_term($nav_locations[$navkey], 'nav_menu');
 		}
-		
+
 		foreach($navs as $nmkey => $nm) {
 			$context['menu_name'][$nmkey] = $nm->name;
 			$context['menu'][$nmkey] = custom_menu($nm->name);

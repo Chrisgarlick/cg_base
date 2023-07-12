@@ -3,7 +3,7 @@
         {% for section in content.fiftyfifty_block %}
             <div class="m__fiftyfifty_block flex {% if section.content_side == 'left' %}flex-row {% else %}flex-row-reverse{% endif %} w-full {{ section.padding ? section.top_padding ~ ' ' ~  section.bottom_padding }}">
                 <div class="m__fiftyfifty_block--text w-1/2">
-                    <h1 class="m__fiftyfifty_block--text-header">{{ section.title }}</h1>
+                    <h2 class="m__fiftyfifty_block--text-header">{{ section.title }}</h2>
                     {{ section.copy }}
                     {% if section.first_cta.url or section.second_cta.url %}
                         <div class="m__fiftyfifty_block--text-links flex justify-start items-center my-4">
