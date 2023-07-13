@@ -208,6 +208,70 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_64afc55bc9a84": {
+                    "key": "layout_64afc55bc9a84",
+                    "name": "cta_block_component",
+                    "label": "CTA Block Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64afc563c9a85",
+                            "label": "CTA Block Component Clone",
+                            "name": "cta_block_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64afc30886633"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64aff6c3a8900": {
+                    "key": "layout_64aff6c3a8900",
+                    "name": "tabs_component",
+                    "label": "Tabs Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64aff6cda8901",
+                            "label": "Tabs Component Clone",
+                            "name": "tabs_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64aff0ca84dd4"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -240,5 +304,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1689176365
+    "modified": 1689253595
 }
