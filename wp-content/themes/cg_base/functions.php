@@ -3,6 +3,8 @@
 
 require_once('lib/timber.php');
 require_once('lib/tools.php');
+require_once('lib/posttypes.php');
+require_once('lib/ajax.php');
 
 function custom_acf_json_save_point( $path ) {
     // Set the path to the acf-json folder in your theme
@@ -28,10 +30,14 @@ function enqueue_theme_scripts() {
     wp_register_script('fontawesome', "https://kit.fontawesome.com/ca004fe30a.js", array(), null, true);
     wp_enqueue_script('fontawesome');
 
-    wp_enqueue_script( 'cg_base-script', get_template_directory_uri() . '/assets/dist/js/scripts.min.js', array('jquery'), '1.0.0', true );
+    wp_enqueue_style("slick-carousel", get_template_directory_uri() . '/assets/src/css/slick.css');
+    wp_enqueue_script('slick-carousel', get_template_directory_uri() . '/assets/src/js/slick.min.js', array('jquery'), '1.0', true);
+    // Enqueue your custom script with 'slick' as a dependency
+    wp_enqueue_script( 'cg_base-script', get_template_directory_uri() . '/assets/dist/js/scripts.min.js', ['jquery'], '1.0.0', true );
     wp_enqueue_style( 'cg_base-style', get_template_directory_uri() . '/assets/dist/css/styles.min.css', array(), '1.0.0' );
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_theme_scripts' );
+
 
 // add_theme_support('post-thumbnails');
 

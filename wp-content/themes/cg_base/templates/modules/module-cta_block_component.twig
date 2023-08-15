@@ -1,4 +1,4 @@
-<div class="m__cta_block {{ content.padding ? content.top_padding ~ ' ' ~  content.bottom_padding }}" style="{% if content.make_background_gradient %}background:{{ content.gradient_style ? content.gradient_style }}-gradient({% if content.gradient_style == 'radial' %}circle{% else %}{% if content.gradient_angle == "top-to-bottom" %}0deg{% else %}90deg{% endif %}{% endif %}, #{{ content.hex_colour }} 0%, #{{ content.gradient_hex_colour }} 100%);{% endif %}">
+<div class="m__cta_block {{ content.padding ? content.top_padding ~ ' ' ~  content.bottom_padding }}" style="{% if content.make_background_gradient %}background:{{ content.gradient_style ? content.gradient_style }}-gradient({% if content.gradient_style == 'radial' %}circle{% else %}{% if content.gradient_angle == "top-bottom" %}0deg{% else %}90deg{% endif %}{% endif %}, #{{ content.hex_colour }} 0%, #{{ content.gradient_hex_colour }} 100%);{% endif %}">
     <div class="container mx-auto px-4">
         <div class="m__cta_block__wrapper w-full">
             <div class="m__cta_block__wrapper--title text-center">

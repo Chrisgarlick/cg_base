@@ -17,6 +17,7 @@ class TemplateBuild extends TimberSite {
 			[
 				'main_nav' => 'Main Menu',
 				'footer_nav' => 'Footer Menu',
+				'legal_nav' => 'Legal Menu',
 			]
 		);
 

@@ -1,0 +1,56 @@
+.m__testimonial {
+
+    &__wrap {
+        
+        @apply w-3/5;
+        @apply mx-auto;
+
+        &--quote {
+
+            @apply text-center;
+
+            p {
+                position: relative;
+            }
+            p::before {
+
+                content: '';
+                background-image: url('../images/speech_marks.svg');
+                @apply bg-cover;
+                @apply bg-center;
+                @apply bg-no-repeat;
+                width: 65px;
+                height: 52px;
+                @apply block;
+                @apply absolute;
+                @apply left-[-5rem];
+                @apply top-[-50%];
+
+            }
+            p::after {
+
+                content: '';
+                background-image: url('../images/speech_marks.svg');
+                @apply bg-cover;
+                @apply bg-center;
+                @apply bg-no-repeat;
+                transform: rotate(180deg);
+                width: 65px;
+                height: 52px;
+                @apply block;
+                @apply absolute;
+                @apply right-[-5rem];
+                @apply top-[-50%];
+
+            }
+
+        }
+
+        &--speaker {
+            
+            @apply text-center;
+
+        }
+    }
+
+}

@@ -272,6 +272,262 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_64be87fa6fb55": {
+                    "key": "layout_64be87fa6fb55",
+                    "name": "testimonial_component",
+                    "label": "Testimonial Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64be88036fb56",
+                            "label": "Testimonial Component Clone",
+                            "name": "testimonial_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64be8758ae646"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64be8e1634ca1": {
+                    "key": "layout_64be8e1634ca1",
+                    "name": "accordion_component",
+                    "label": "Accordion Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64be8e1c34ca2",
+                            "label": "Accordion Component Clone",
+                            "name": "accordion_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64be8dc28628b"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64be940f56fde": {
+                    "key": "layout_64be940f56fde",
+                    "name": "email_newsletter_component",
+                    "label": "Email Newsletter Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64be941b56fdf",
+                            "label": "Email Newsletter Component Clone",
+                            "name": "email_newsletter_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64be934841bc4"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64bf8f0c3487c": {
+                    "key": "layout_64bf8f0c3487c",
+                    "name": "halved_banner_component",
+                    "label": "Halved Banner Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64bf8f1f3487d",
+                            "label": "Halved Banner Component Clone",
+                            "name": "halved_banner_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64bf8cab9e880"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64bfb0739d988": {
+                    "key": "layout_64bfb0739d988",
+                    "name": "full_width_carousel_component",
+                    "label": "Full Width Carousel Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64bfb07d9d989",
+                            "label": "Full Width Carousel Component Clone",
+                            "name": "full_width_carousel_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64bfabfc7147e"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64c8d65b75d44": {
+                    "key": "layout_64c8d65b75d44",
+                    "name": "related_news_component",
+                    "label": "Related News Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64c8d66275d45",
+                            "label": "Related News Component Clone",
+                            "name": "related_news_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64c8d471139a2"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64ca7094cd620": {
+                    "key": "layout_64ca7094cd620",
+                    "name": "faq_component",
+                    "label": "FAQ Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64ca709dcd621",
+                            "label": "FAQ Component Clone",
+                            "name": "faq_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64ca6f8b0becd"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64cbaaad13eb9": {
+                    "key": "layout_64cbaaad13eb9",
+                    "name": "related_case_studies_component",
+                    "label": "Related Case Studies Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64cbaab513eba",
+                            "label": "Related Case Studies Component Clone",
+                            "name": "related_case_studies_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64cba97cca789"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -280,13 +536,6 @@
         }
     ],
     "location": [
-        [
-            {
-                "param": "post_type",
-                "operator": "==",
-                "value": "post"
-            }
-        ],
         [
             {
                 "param": "post_type",
@@ -304,5 +553,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1689253595
+    "modified": 1691147019
 }

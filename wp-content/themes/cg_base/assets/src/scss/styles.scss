@@ -17,6 +17,10 @@
 
 // Layout
 @import 'layout/navigation';
+@import 'layout/headers';
+@import 'layout/hero';
+@import 'layout/cards';
+@import 'layout/footer';
 
 // modules
 @import 'modules/one_column';
@@ -26,3 +30,10 @@
 @import 'modules/full_width_image';
 @import 'modules/cta_block';
 @import 'modules/tabs';
+@import 'modules/testimonial';
+@import 'modules/accordion';
+@import 'modules/newsletter';
+@import 'modules/halved_banner';
+@import 'modules/full_width_carousel';
+@import 'modules/blog';
+@import 'modules/case_study';
