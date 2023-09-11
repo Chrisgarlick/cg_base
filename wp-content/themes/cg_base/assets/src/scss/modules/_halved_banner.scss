@@ -2,7 +2,9 @@
 
     &__wrap {
 
-        gap: 8rem;
+        @apply gap-2;
+        @apply md:gap-4;
+        @apply lg:gap-32;
 
         &.squares {
 
@@ -30,7 +32,8 @@
                 display: flex;
                 flex-direction: column;
                 align-items: stretch;
-                padding: 3rem;    
+                @apply p-8;
+                @apply md:p-12; 
                 height: 100%;
                 
             }
@@ -41,7 +44,8 @@
 
                 &--image {
 
-                    padding: 2rem;
+                    @apply p-8;
+                    @apply md:p-8;
 
                 }
 
@@ -103,7 +107,8 @@
                 display: flex;
                 flex-direction: column;
                 align-items: stretch;
-                padding: 3rem;
+                @apply p-8;
+                @apply md:p-12;
                 height: 100%;
             }
 
@@ -113,7 +118,8 @@
 
                 &--image {
 
-                    padding: 2rem;
+                    @apply p-8;
+                    @apply md:p-8;
 
                 }
 

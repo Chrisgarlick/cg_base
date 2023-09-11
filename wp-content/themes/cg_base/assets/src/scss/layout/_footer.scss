@@ -1,7 +1,8 @@
 footer {
 
     @apply bg-black;
-    @apply h-[300px];
+    @apply h-[650px];
+    @apply md:h-[300px];
 
     .g__footer__block {
 

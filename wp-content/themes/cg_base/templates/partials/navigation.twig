@@ -1,5 +1,5 @@
 {% if nav %}
-	<nav id="nav-main" class="m__nav w-full">
+	<nav id="nav-main" class="m__nav w-full hidden md:block">
 		<ul class="m__nav__wrap flex justify-evenly">
 			{% for item in nav %} 
 				{% if item.menu_item_parent == 0 %}
@@ -61,4 +61,5 @@
 
 	
 	</nav>
+	<div class="hamburger block md:hidden absolute right-[5%] text-white">|||</div>
 {% endif %}

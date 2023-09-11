@@ -5,8 +5,8 @@
     {% if not content.full_width %}
         <div class="container mx-auto px-4">
     {% endif %}
-        <div class="m__halved_banner__wrap {% if content.full_width %}full_width{% endif %} {% if content.background %}squares{% endif %} w-full flex flex-row justify-between">
-            <div class="m__halved_banner__wrap__left w-1/2 " {% if content.background_colour %}style="background-color: #{{ content.background_colour }}"{% endif %}>
+        <div class="m__halved_banner__wrap {% if content.full_width %}full_width{% endif %} {% if content.background %}squares{% endif %} w-full flex flex-col md:flex-row justify-between">
+            <div class="m__halved_banner__wrap__left w-full md:w-1/2 " {% if content.background_colour %}style="background-color: #{{ content.background_colour }}"{% endif %}>
                 {% if left_media == 'copy' %}
                     <div class="m__halved_banner__wrap__left__{{ left_media }}">
                         {% if content.left_side.copy_title %}
@@ -77,7 +77,7 @@
                     </div>
                 {% endif %}
             </div>
-            <div class="m__halved_banner__wrap__right w-1/2" {% if content.background_colour %}style="background-color: #{{ content.background_colour }}"{% endif %}>
+            <div class="m__halved_banner__wrap__right w-full md:w-1/2" {% if content.background_colour %}style="background-color: #{{ content.background_colour }}"{% endif %}>
                 {% if right_media == 'copy' %}
                     <div class="m__halved_banner__wrap__right__{{ right_media }}">
                         {% if content.right_side.copy_title %}

@@ -1,7 +1,8 @@
 .m__newsletter__wrap {
     
     @apply text-center;
-    @apply w-4/5;
+    @apply w-full;
+    @apply md:w-4/5;
     @apply mx-auto;
     
     &--form {
@@ -9,6 +10,8 @@
         form {
 
             @apply flex;
+            @apply flex-col;
+            @apply md:flex-row;
             @apply justify-start;
             @apply items-start;
             
@@ -23,12 +26,16 @@
             }
             p:first-of-type {
                 
-                @apply w-4/5;
+                @apply w-full;
+                @apply md:w-4/5;
                 
             }
             p:last-of-type {
                 
-                @apply w-1/5;
+                @apply w-1/2;
+                @apply mx-auto;
+                @apply md:mx-0;
+                @apply md:w-1/5;
                 @apply text-center;
                 
             }

@@ -99,5 +99,10 @@
         max-width: 336px;
         height: 189px;
         width: 336px;
+        @apply mx-auto;
+    }
+    .m__full_width_carousel .slick-dots li {
+        width: 15px;
+        height: 15px;
     }
 }

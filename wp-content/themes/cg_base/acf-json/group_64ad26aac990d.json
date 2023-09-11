@@ -56,7 +56,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64ad5cc13aae6",
+                            "key": "field_64fef5b5e8deb",
                             "label": "50\/50 Block Component Clone",
                             "name": "fiftyfifty_block_component_clone",
                             "aria-label": "",
@@ -88,7 +88,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64ae66053b402",
+                            "key": "field_64fef5f678c5f",
                             "label": "50\/50 Text Component Clone",
                             "name": "fiftyfifty_text_component_clone",
                             "aria-label": "",
@@ -120,7 +120,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64aeab4ac4c82",
+                            "key": "field_64fef62921598",
                             "label": "Image Blocks Component Clone",
                             "name": "image_blocks_component_clone",
                             "aria-label": "",
@@ -152,7 +152,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64aeb6c593f36",
+                            "key": "field_64fef668410c9",
                             "label": "Stats Block Component Clone",
                             "name": "stats_block_component_clone",
                             "aria-label": "",
@@ -184,7 +184,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64aec891e0d3e",
+                            "key": "field_64fef6ae410ca",
                             "label": "Full Width Image Component Clone",
                             "name": "full_width_image_component_clone",
                             "aria-label": "",
@@ -216,7 +216,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64afc563c9a85",
+                            "key": "field_64fef6ec18e71",
                             "label": "CTA Block Component Clone",
                             "name": "cta_block_component_clone",
                             "aria-label": "",
@@ -248,7 +248,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64aff6cda8901",
+                            "key": "field_64fef718bb562",
                             "label": "Tabs Component Clone",
                             "name": "tabs_component_clone",
                             "aria-label": "",
@@ -280,7 +280,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64be88036fb56",
+                            "key": "field_64fef744bb563",
                             "label": "Testimonial Component Clone",
                             "name": "testimonial_component_clone",
                             "aria-label": "",
@@ -312,7 +312,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64be8e1c34ca2",
+                            "key": "field_64fef781bb564",
                             "label": "Accordion Component Clone",
                             "name": "accordion_component_clone",
                             "aria-label": "",
@@ -344,7 +344,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64be941b56fdf",
+                            "key": "field_64fef7acbb565",
                             "label": "Email Newsletter Component Clone",
                             "name": "email_newsletter_component_clone",
                             "aria-label": "",
@@ -376,7 +376,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64bf8f1f3487d",
+                            "key": "field_64fef7ccbb566",
                             "label": "Halved Banner Component Clone",
                             "name": "halved_banner_component_clone",
                             "aria-label": "",
@@ -408,7 +408,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64bfb07d9d989",
+                            "key": "field_64fef7eabb567",
                             "label": "Full Width Carousel Component Clone",
                             "name": "full_width_carousel_component_clone",
                             "aria-label": "",
@@ -440,7 +440,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64c8d66275d45",
+                            "key": "field_64fef818bb568",
                             "label": "Related News Component Clone",
                             "name": "related_news_component_clone",
                             "aria-label": "",
@@ -472,7 +472,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64ca709dcd621",
+                            "key": "field_64fef83d533b6",
                             "label": "FAQ Component Clone",
                             "name": "faq_component_clone",
                             "aria-label": "",
@@ -504,7 +504,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_64cbaab513eba",
+                            "key": "field_64fef86b533b7",
                             "label": "Related Case Studies Component Clone",
                             "name": "related_case_studies_component_clone",
                             "aria-label": "",
@@ -519,6 +519,38 @@
                             },
                             "clone": [
                                 "group_64cba97cca789"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64fef3f9a59d9": {
+                    "key": "layout_64fef3f9a59d9",
+                    "name": "one_third_two_thirds_component",
+                    "label": "1\/3 2\/3 Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64fef890533b8",
+                            "label": "One Third Two Third Component Clone",
+                            "name": "one_third_two_third_component_clone",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_64fef30697fbc"
                             ],
                             "display": "seamless",
                             "layout": "block",
@@ -553,5 +585,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1691147019
+    "modified": 1694431407
 }

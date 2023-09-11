@@ -18,3 +18,42 @@
         @apply ml-10;
     }
 }
+
+@media only screen and (max-width: 767px) {
+
+    .m__nav {
+
+        @apply absolute;
+        @apply w-full;
+        @apply h-full;
+        @apply left-0;
+        @apply top-0;
+        @apply bg-black;
+        z-index:11;
+
+        &__wrap {
+
+            @apply flex-col;
+            @apply mt-20;
+
+        }
+        &__item {
+
+            @apply ml-10;
+
+            &.current {
+
+                @apply ml-10;
+
+            }
+
+        }
+        
+    }
+    .hamburger {
+
+        z-index: 111;
+
+    }
+
+}

@@ -109,7 +109,10 @@ $(document).ready(function() {
 
       mobileOnlySlider(".selected__news", true, false, 767);
 
-    
+    // Navigation
+    $(".hamburger").on('click', function() {
+      $('.m__nav#nav-main').toggleClass('hidden');
+    });
     
 
 

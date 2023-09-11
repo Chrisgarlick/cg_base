@@ -1,8 +1,8 @@
 <div class="m__fiftyfifty {{ content.padding ? content.top_padding ~ ' ' ~  content.bottom_padding }}">
     <div class="container mx-auto px-4">
         {% for section in content.fiftyfifty_content %}
-            <div class="m__fiftyfifty__text w-full flex flex-row justify-evenly {{ section.padding ? section.top_padding ~ ' ' ~  section.bottom_padding }}">
-                <div class="m__fiftyfifty__text--left w-2/5 {{ section.alignment ? section.alignment }}">
+            <div class="m__fiftyfifty__text w-full flex flex-col md:flex-row justify-evenly {{ section.padding ? section.top_padding ~ ' ' ~  section.bottom_padding }}">
+                <div class="m__fiftyfifty__text--left w-full md:w-2/5 {{ section.alignment ? section.alignment }}">
                     {% if section.left_title %}
                         <div class="m__fiftyfifty__text--left--header">
                             <h2>{{ section.left_title }}</h2>
@@ -22,7 +22,7 @@
                         </div>
                     {% endif %}
                 </div>
-                <div class="m__fiftyfifty__text--right w-2/5 {{ section.alignment ? section.alignment }}">
+                <div class="m__fiftyfifty__text--right w-full md:w-2/5 {{ section.alignment ? section.alignment }}">
                     {% if section.right_title %}
                         <div class="m__fiftyfifty__text--left--header">
                             <h2>{{ section.right_title }}</h2>
